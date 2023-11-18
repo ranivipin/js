@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>js</title>
+
+
+</head>
+<style>
+    .color {
+        color: brown;
+
+    }
+</style>
+
+<body>
+    <script>
+        var a = [12, "abc", true, false, null]
+        console.log(a)
+
+        function someone(ram, shyam) {
+            var add = ram + " " + "love" + " " + shyam;
+            return add;
+        }
+        var callfunction = someone("i", "god")
+        console.log(callfunction);
+
+        var v = 27;
+        var w = "19";
+        console.log(v === w);
+
+        var c = 3;
+        var k = "05";
+        console.log(c + k)
+
+        var l = true;
+        var u = 7
+        console.log(l - u)
+
+
+        // let p = 80;
+        // let q = 90;
+        // if (p > q) {
+        //     console.log(
+        //         "p is greater then q "
+
+        //     )
+        // }
+        // else if (p == q) {
+        //     console.log(
+        //         "p is equal to q"
+        //     )
+        // }
+        // else if (p < q) {
+        //     console.log(
+        //         "q is less then p"
+        //     )
+        // }
+
+        // else {
+        //     console.log("nothing")
+
+        // }
+        // var a = 20
+        // a < 10
+        //         ? console.log(false)
+        //         : a === 210
+        //             ? console.log(true)
+        //             : a === 20
+        //                 ? console.log(true)
+        //                 : console.log(false);
+
+        // var p = 30
+        // p > 40 ? console.log("p is greater than 40") : console.log("p is less than 40")
+        //  p === 30 ? console.log(true) : console.log(false)
+        // p < 10 ? console.log(true) : console.log(false)
+
+        // var h = 7
+        // h < 5
+        //     ? console.log(false)
+        //     : h == 17
+        //         ? console.log(false)
+        //         : h > 6 ? console.log(true) : console.log(false)
+
+
+
+        var u = 89
+        u == 80 ?
+            console.log(false)
+            : u > 92 ?
+                console.log(false)
+                : u > 29 ?
+                    console.log(true) : console.log(false)
+
+
+        var day;
+        switch (new Date().getDay()) {
+            case 0:
+                day = "Sunday";
+                break;
+            case 1:
+                day = "Monday";
+                break;
+            case 2:
+                day = "Tuesday";
+                break;
+            case 3:
+                day = "Wednesday";
+                break;
+            case 4:
+                day = "Thursday";
+                break;
+            case 5:
+                day = "Friday";
+                break;
+            case 6:
+                day = "Saturday";
+                break;
+            default:
+                day = "Unknown Day";
+        }
+        console.log(day);
+
+
+
+        var month;
+        switch (new Date().getMonth()) {
+            case 0:
+                month = "january";
+                break;
+            case 1:
+                month = "feburary";
+                break;
+            case 2:
+                month = "march";
+                break;
+            case 3:
+                month = "april";
+                break;
+            case 4:
+                month = "may";
+                break;
+            case 5:
+                month = "june";
+                break;
+            case 6:
+                month = "july";
+                break;
+            case 7:
+                month = "august";
+                break;
+            case 8:
+                month = "september";
+                break;
+            case 9:
+                month = "october";
+                break;
+            case 10:
+                month = "november";
+                break;
+            case 11:
+                month = "december";
+
+            default:
+                day = "Unknown month";
+        }
+        console.log(month);
+
+
+    </script>
+
+
+    <p id="demo"></p>
+
+    <script>
+        const cars = ["BMW", "Volvo", "Saab", "Ford", "Fiat", "Audi"];
+
+        let text = "";
+        for (let i = 0; i < cars.length; i++) {
+            text += cars[i] + "<br>";
+        }
+
+        document.getElementById("demo").innerHTML = text;
+    </script>
+    <p id="how"></p>
+    <script>
+        const fruits = ["apples", "banana", "oranges", "papaya", "pear", "mango"];
+        let title = "";
+        for (let i = 0; i < fruits.length; i++) {
+            title += fruits[i] + "<br>";
+        }
+        document.getElementById("how").innerHTML = title;   
+    </script>
+
+    <p id="value" class="color"></p>
+    <script>
+        const count = ["1", "2", "3", "4", "5", "6", "7", "8", "9"];
+        let test = "";
+        for (let i = 0; i < count.length; i++) {
+            test += count[i] + "<br>";
+        }
+        document.getElementById("value").innerHTML = test;
+    </script>
+
+    <p id="person"></p>
+    <script>
+        const name = ["ram", "shyam", "raman", "aman", "rahul", "rohit", "mohit", "amit", "sumit"];
+        let some = "";
+        for (let i = 0; i < name.length; i++) {
+            some += name[i] + "<br>";
+        }
+        document.getElementById("person").innerHTML = some;
+    </script>
+
+
+</body>
+
+</html>
