@@ -14,6 +14,14 @@
         color: brown;
 
     }
+
+    .text-orange {
+        color: orange;
+    }
+
+    .clr {
+        color: green;
+    }
 </style>
 
 <body>
@@ -64,167 +72,285 @@
         //     console.log("nothing")
 
         // }
-        // var a = 20
-        // a < 10
-        //         ? console.log(false)
-        //         : a === 210
-        //             ? console.log(true)
-        //             : a === 20
-        //                 ? console.log(true)
-        //                 : console.log(false);
+    //     var a = 20
+    //     a < 10
+    //         ? console.log(false)
+    //         : a === 210
+    //             ? console.log(true)
+    //             : a === 20
+    //                 ? console.log(true)
+    //                 : console.log(false);
 
-        // var p = 30
-        // p > 40 ? console.log("p is greater than 40") : console.log("p is less than 40")
-        //  p === 30 ? console.log(true) : console.log(false)
-        // p < 10 ? console.log(true) : console.log(false)
+    //     var p = 30
+    //     p > 40 ? console.log("p is greater than 40") : console.log("p is less than 40")
+    //     p === 30 ? console.log(true) : console.log(false)
+    //     p < 10 ? console.log(true) : console.log(false)
 
-        // var h = 7
-        // h < 5
-        //     ? console.log(false)
-        //     : h == 17
-        //         ? console.log(false)
-        //         : h > 6 ? console.log(true) : console.log(false)
-
-
-
-        var u = 89
-        u == 80 ?
-            console.log(false)
-            : u > 92 ?
-                console.log(false)
-                : u > 29 ?
-                    console.log(true) : console.log(false)
-
-
-        var day;
-        switch (new Date().getDay()) {
-            case 0:
-                day = "Sunday";
-                break;
-            case 1:
-                day = "Monday";
-                break;
-            case 2:
-                day = "Tuesday";
-                break;
-            case 3:
-                day = "Wednesday";
-                break;
-            case 4:
-                day = "Thursday";
-                break;
-            case 5:
-                day = "Friday";
-                break;
-            case 6:
-                day = "Saturday";
-                break;
-            default:
-                day = "Unknown Day";
-        }
-        console.log(day);
+    //     var h = 7
+    //     h < 5
+    //         ? console.log(false)
+    //         : h == 17
+    //             ? console.log(false)
+    //             : h > 6 ? console.log(true) : console.log(false)
 
 
 
-        var month;
-        switch (new Date().getMonth()) {
-            case 0:
-                month = "january";
-                break;
-            case 1:
-                month = "feburary";
-                break;
-            case 2:
-                month = "march";
-                break;
-            case 3:
-                month = "april";
-                break;
-            case 4:
-                month = "may";
-                break;
-            case 5:
-                month = "june";
-                break;
-            case 6:
-                month = "july";
-                break;
-            case 7:
-                month = "august";
-                break;
-            case 8:
-                month = "september";
-                break;
-            case 9:
-                month = "october";
-                break;
-            case 10:
-                month = "november";
-                break;
-            case 11:
-                month = "december";
-
-            default:
-                day = "Unknown month";
-        }
-        console.log(month);
+    //     var u = 89
+    //     u == 80 ?
+    //         console.log(false)
+    //         : u > 92 ?
+    //             console.log(false)
+    //             : u > 29 ?
+    //                 console.log(true) : console.log(false)
 
 
-    </script>
+    //     var day;
+    //     switch (new Date().getDay()) {
+    //         case 0:
+    //             day = "Sunday";
+    //             break;
+    //         case 1:
+    //             day = "Monday";
+    //             break;
+    //         case 2:
+    //             day = "Tuesday";
+    //             break;
+    //         case 3:
+    //             day = "Wednesday";
+    //             break;
+    //         case 4:
+    //             day = "Thursday";
+    //             break;
+    //         case 5:
+    //             day = "Friday";
+    //             break;
+    //         case 6:
+    //             day = "Saturday";
+    //             break;
+    //         default:
+    //             day = "Unknown Day";
+    //     }
+    //     console.log(day);
 
 
-    <p id="demo"></p>
+
+    //     var month;
+    //     switch (new Date().getMonth()) {
+    //         case 0:
+    //             month = "january";
+    //             break;
+    //         case 1:
+    //             month = "feburary";
+    //             break;
+    //         case 2:
+    //             month = "march";
+    //             break;
+    //         case 3:
+    //             month = "april";
+    //             break;
+    //         case 4:
+    //             month = "may";
+    //             break;
+    //         case 5:
+    //             month = "june";
+    //             break;
+    //         case 6:
+    //             month = "july";
+    //             break;
+    //         case 7:
+    //             month = "august";
+    //             break;
+    //         case 8:
+    //             month = "september";
+    //             break;
+    //         case 9:
+    //             month = "october";
+    //             break;
+    //         case 10:
+    //             month = "november";
+    //             break;
+    //         case 11:
+    //             month = "december";
+
+    //         default:
+    //             day = "Unknown month";
+    //     }
+    //     console.log(month);
+
+
+    // </script>
+
+
+    // <p id="demo"></p>
+
+    //
+    <script>
+    //     const cars = ["BMW", "Volvo", "Saab", "Ford", "Fiat", "Audi"];
+
+    //     let text = "";
+    //     for (let i = 0; i < cars.length; i++) {
+    //         text += cars[i] + "<br>";
+    //     }
+
+    //     document.getElementById("demo").innerHTML = text;
+    // </script>
+    // <p id="how" class="text-orange"></p>
+    //
+    <script>
+    //     const fruits = ["apples", "banana", "oranges", "papaya", "pear", "mango"];
+    //     let title = "";
+    //     for (let i = 0; i < fruits.length; i++) {
+    //         title += fruits[i] + "<br>";
+    //     }
+    //     document.getElementById("how").innerHTML = title;
+    // </script>
+
+    // <p id="value" class="color"></p>
+    //
+    <script>
+    //     const count = ["1", "2", "3", "4", "5", "6", "7", "8", "9"];
+    //     let test = "";
+    //     for (let i = 0; i < count.length; i++) {
+    //         test += count[i] + "<br>";
+    //     }
+    //     document.getElementById("value").innerHTML = test;
+    // </script>
+
+    // <p id="person" class="clr"></p>
+    //
+    <script>
+    //     const name = ["ram", "shyam", "raman", "aman", "rahul", "rohit", "mohit", "amit", "sumit"];
+    //     let some = "";
+    //     for (let i = 0; i < name.length; i++) {
+    //         some += name[i] + "<br>";
+    //     }
+    //     document.getElementById("person").innerHTML = some;
+    // </script>
+
+    // <p id="desh"></p>
+    //
+    <script>
+    //     const parts = ["eye", "nose", "ears", "mouth", "teeth", "hand", "head", "foot", "feet", "finger",];
+    //     let one = "";
+    //     for (let i = 0; i < parts.length; i++) {
+    //         one += parts[i] + "<br>";
+    //     }
+    //     document.getElementById("desh").innerHTML = one;
+
+    // </script>
+    // <p id="brand" class="color"></p>
+    //
+    <script>
+    //     const company = ["aadias", "nike", "puma", "gap-guchi", "armany", "reebok", "redtap"];
+    //     let shoes = "";
+    //     for (let i = 0; i < company.length; i++) {
+    //         shoes += company[i] + "<br>";
+    //     }
+    //     document.getElementById("brand").innerHTML = shoes;
+
+    // </script>
+    // <p id="animals" class="text-orange"></p>
+    //
+    <script>
+    //     const animalsname = ["cat", "dog", "monkey", "cow", "goat",];
+    //     let somename = "";
+    //     for (let i = 0; i < animalsname.length; i++) {
+    //         somename += animalsname[i] + "<br>";
+
+    //     }
+    //     document.getElementById("animals").innerHTML = somename;
+    // </script>
+
+    //
+    <script>
+    //     var m = 40;
+    //     var n = 70;
+    //     var o = -30;
+    //     if (m > n) {
+    //         console.log("true");
+
+    //     }
+    //     else if (o == -30) {
+    //         console.log("true");
+    //     }
+    //     else if (m == n) {
+    //         console.log("false");
+    //     }
+    //     else {
+    //         console.log("false")
+    //     }
+
+    //     var d = 30
+    //     console.log(d == 30)
+
+    //     var g = 90;
+    //     var v = 47;
+    //     console.log(g + v)
+
+    //     var l = 56;
+    //     var b = 32;
+    //     console.log(b - l)
+
+    //     function number(a, b, c) {
+    //         var add = a + b * c;
+    //         return add;
+    //     }
+    //     var callfunction = number(34, 29, 6)
+    //     console.log(callfunction);
+
+    //     function none(ramn, kamal, ram) {
+    //         var add = ramn * kamal + ram;
+    //         return add;
+    //     }
+    //     var callfunction = none(99, 34, 57)
+    //     console.log(callfunction)
+
+    //     var user = {
+    //         name: "abc",
+    //         date: 2023,
+
+    //     }
+    //     console.log(user)
+    //     var s = ["12", "gddg", "eye", "fghfgn", "iryuld"]
+    //     console.log(s)
+    // </script>
+    <p id="kyc"></p>
 
     <script>
-        const cars = ["BMW", "Volvo", "Saab", "Ford", "Fiat", "Audi"];
-
-        let text = "";
-        for (let i = 0; i < cars.length; i++) {
-            text += cars[i] + "<br>";
+        let next = "";
+        let i = 0;
+        while (i < 10) {
+            next += "<br>The number is " + i;
+            i++;
         }
-
-        document.getElementById("demo").innerHTML = text;
+        document.getElementById("kyc").innerHTML = next;
     </script>
-    <p id="how"></p>
+
+    <p id="full"></p>
     <script>
-        const fruits = ["apples", "banana", "oranges", "papaya", "pear", "mango"];
-        let title = "";
-        for (let i = 0; i < fruits.length; i++) {
-            title += fruits[i] + "<br>";
+        let improv = "";
+        let m = 0;
+        while (m < 20) {
+            improv += "<br> number" + m;
+            m++;
         }
-        document.getElementById("how").innerHTML = title;   
+        document.getElementById("full").innerHTML = improv;
+
     </script>
 
-    <p id="value" class="color"></p>
+
+    <p id="gap"></p>
     <script>
-        const count = ["1", "2", "3", "4", "5", "6", "7", "8", "9"];
-        let test = "";
-        for (let i = 0; i < count.length; i++) {
-            test += count[i] + "<br>";
+        let para = "";
+        let h = 0;
+        do {
+            para += "<br> number " + h;
+            h++;
         }
-        document.getElementById("value").innerHTML = test;
+        while (h < 15);
+        document.getElementById("gap").innerHTML = para;
     </script>
 
-    <p id="person"></p>
-    <script>
-        const name = ["ram", "shyam", "raman", "aman", "rahul", "rohit", "mohit", "amit", "sumit"];
-        let some = "";
-        for (let i = 0; i < name.length; i++) {
-            some += name[i] + "<br>";
-        }
-        document.getElementById("person").innerHTML = some;
-    </script>
-
-    <p id="desh"></p>
-    <script>
-        const parts = ["eye", "nose", "ears", "mouth", "teeth", "hand", "head", "foot", "feet", "finger",];
-        let one = "";
-        for (let i = 0; i < parts.length; i++) {
-            one += parts[i] + "<br>";
-        }
-        document.getElementById("desh").innerHTML = one;
-
-    </script>
 </body>
 
 </html>

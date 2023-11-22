@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    // <p id="brand" class="color"></p>
+    //
+    <script>
+        const company = ["aadias", "nike", "puma", "gap-guchi", "armany", "reebok", "redtap"];
+        let shoes = "";
+        for (let i = 0; i < company.length; i++) {
+            shoes += company[i] + "<br>";
+        }
+        document.getElementById("brand").innerHTML = shoes;
+
+    </script>
+    <p id="kyc"></p>
+
+    <script>
+        let next = "";
+        let i = 0;
+        while (i < 10) {
+            next += "<br>The number is " + i;
+            i++;
+        }
+        document.getElementById("kyc").innerHTML = next;
+    </script>
+
+    <p id="full"></p>
+    <script>
+        let improv = "";
+        let m = 0;
+        while (m < 20) {
+            improv += "<br> number" + m;
+            m++;
+        }
+        document.getElementById("full").innerHTML = improv;
+
+    </script>
+
+
+    <p id="gap"></p>
+    <script>
+        let para = "";
+        let h = 0;
+        do {
+            para += "<br> number " + h;
+            h++;
+        }
+        while (h < 15);
+        document.getElementById("gap").innerHTML = para;
+    </script>
+
+    <p id="out"></p>
+    <script>
+        let head = "";
+        let z = 20;
+        do {
+            head += "<br> counting " + z;
+            z++;
+        }
+        while (z < 30);
+        document.getElementById("out").innerHTML = head;
+    </script>
+</body>
+
+</html>
